@@ -1,5 +1,7 @@
 # Work-in-progress! Stay tuned!!!
 
+Any PR, feature requests are welcome!
+
 # README
 
 A very simple intuitive and scaleable skeleton for your next project.
