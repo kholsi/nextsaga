@@ -17,7 +17,6 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Provider store={pool}>{children}</Provider>
-        {children}
       </body>
     </html>
   )
