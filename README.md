@@ -5,15 +5,16 @@ Any PR, feature requests are welcome!
 # TODOs
 
 - [ ] Redux state component demo
-- [ ] Add styled component
-- [ ] Add antd framework
+- [x] Add styled component
+- [x] Add antd framework
+- [ ] Page performance
 
 # README
 
 A very simple intuitive and scaleable skeleton for your next project.
 
 - Using:
-  React 18 + Next.js 13 + Redux + RTK Query + Redux Saga + Styled Component + AntD Framework
+  TypeScript + React 18 + Next.js 13 + Redux + RTK Query + Redux Saga + Styled Component + AntD Framework
 - Built with:
   Node Engine: 18.16.0
   Next.js: App Router
