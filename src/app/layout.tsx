@@ -1,6 +1,5 @@
-import pool from '@/pool'
+import { ReduxWrapper } from '@/wrapper'
 import { Metadata } from 'next'
-import { Provider } from 'react-redux'
 
 export const metadata: Metadata = {
   title: 'NextSaga | Kholsi',
@@ -16,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Provider store={pool}>{children}</Provider>
+        <ReduxWrapper>{children}</ReduxWrapper>
       </body>
     </html>
   )

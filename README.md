@@ -2,6 +2,12 @@
 
 Any PR, feature requests are welcome!
 
+# TODOs
+
+- [ ] Redux state component demo
+- [ ] Add styled component
+- [ ] Add antd framework
+
 # README
 
 A very simple intuitive and scaleable skeleton for your next project.
@@ -30,18 +36,22 @@ A very simple intuitive and scaleable skeleton for your next project.
 
 - public: Serves public assets
 - src:
-  - app: Serves next.js pages
-  - components: Serves components for `/app`
-  - pool: Serves core redux logics
-  - reducers: Serves redux slices
-  - saga: Serves redux saga
-  - services: Serves api requests
+  - app: Nextjs pages
+  - components: App components
+  - hooks: Application hooks
+  - pool: Redux store
+  - reducers: Redux slices
+  - saga: Redux saga handlers
+  - services: Holds api requests
+  - wrapper: Component wrapper
 
 # Using imports
 
-import from components: "@/components/_"
-import from pool: "@/pool/_"
+```
+import from components: "@/components/*"
+import from pool: "@/pool/*"
 and so forth.
+```
 
 # Serve
 

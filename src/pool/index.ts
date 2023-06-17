@@ -14,4 +14,7 @@ const pool = configureStore({
 
 sagaMiddleware.run(rootSaga)
 
+export type PoolState = ReturnType<typeof pool.getState>
+export type PoolDispatch = typeof pool.dispatch
+
 export default pool
