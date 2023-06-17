@@ -4,6 +4,7 @@ Any PR, feature requests are welcome!
 
 # TODOs
 
+- [ ] Add authentication slice
 - [ ] Redux state component demo
 - [x] Add styled component
 - [x] Add antd framework
