@@ -1,3 +1,5 @@
+# Not going to work on this anymore
+Due to my economic situation I'm not going to provide further work that will provide complete setup. However, if you find it useful then you can use this as your next project template.
 # Work-in-progress! Stay tuned!!!
 
 Any PR, feature requests are welcome!
